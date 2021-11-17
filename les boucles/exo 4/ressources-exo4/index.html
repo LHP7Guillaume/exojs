@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 4</title>
+</head>
+
+<style>
+  .gras {
+    font-weight: bold;
+    color: red;
+    
+  }
+</style>
+
+<body>
+  <!-- <script src="assets/js/script.js" charset="utf-8"> -->
+
+
+  <div id="montableau">
+  </div>
+
+  <script>
+    let divmontableau = document.getElementById("montableau")
+    let days = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
+
+    for (let i = 0; i < days.length; i++) {
+      if (days[i] == "samedi" || days[i] == "dimanche")
+       { divmontableau.innerHTML += `<p class="gras" > ${days[i]} </p>`
+    } else {
+      divmontableau.innerHTML += `<p>${days[i]} </p>`
+    }}
+  </script>
+</body>
+
+</html>

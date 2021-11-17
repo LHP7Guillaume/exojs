@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo-9-JS</title>
+</head>
+
+<body>
+    <p></p>
+
+
+    <!-- UTILISATION DES BALISES SCRIPTS POUR ECRIRE EXECTUTER DU JS -->
+
+    <script>
+        let note = window.prompt("Entrez une note:")
+
+        let message = "veuillez saisir un nombre entre 0 et 10"
+            if (note <= 3) {
+    message='Nul'
+        } else if (note <6) {
+            message='Moyen'
+        } else if (note <8) {
+            message='Assez bien'
+        } else if (note <=9) {
+            message='Bien'
+        } else if (note == 10){
+            message='Excellent'
+        } 
+
+    
+window.alert(message)
+
+
+
+    </script>
+</body>
+
+</html>

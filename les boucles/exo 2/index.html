@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo-exo2-JS</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="chiffre"> </div>
+
+
+    <!-- UTILISATION DES BALISES SCRIPTS POUR ECRIRE EXECTUTER DU JS -->
+
+    <script>
+        let i = 0
+   
+        const rabbit = document.getElementById("chiffre")
+        for (i; i <= 100; i++) {
+            if (Number.isInteger(i/15)) {
+                rabbit.innerHTML += `<p> ${"..."} </p> `
+            } else {
+                rabbit.innerHTML += `<p> ${i} </p>`
+            }
+        }
+
+// Exo1
+
+// while (year <= 2200)  {
+//     //si l'année est divisible par 4 et non divisible par 100
+//     // si l'année est divisible par 400
+
+//     if (Number.isInteger (year / 4 ) && year % 100 !=0) || (Number.isInteger(year) / 400) {
+//         test.innerHTML += `<p> $ {year} </p>`
+//     }
+//     year++
+// }
+
+
+
+    </script>
+
+
+</body>

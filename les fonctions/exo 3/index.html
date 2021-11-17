@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo-exo3-JS</title>
+
+</head>
+
+<body>
+
+
+
+    <!-- UTILISATION DES BALISES SCRIPTS POUR ECRIRE EXECTUTER DU JS -->
+
+
+
+    <form>
+        <div>
+            <label for="nb1">Nombre 1</label>
+            <input type="text" id="nb1">
+        </div>
+        <div>
+            <label for="nb2">Nombre 2</label>
+            <input type="text" id="nb2">
+        </div>
+        <div>
+            <label for="result">resultat</label>
+            <input type="text" id="result" disabled>
+        </div>
+        <button id="buton" type="button" class="btn btn-primary m-2" >Multiplier</button>
+       
+    </form>
+
+
+    <script>
+         
+      document.getElementById("buton").onclick=()=>{
+          let nb1=document.getElementById("nb1").value
+          let nb2=document.getElementById("nb2").value
+          result.value=(nb1 * nb2)
+      }
+
+            
+
+    
+    </script>
+
+
+
+   
+
+
+</body>

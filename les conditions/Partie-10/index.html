@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo-10-JS</title>
+</head>
+
+<body>
+    <p></p>
+
+
+    <!-- UTILISATION DES BALISES SCRIPTS POUR ECRIRE EXECTUTER DU JS -->
+
+    <script>
+        let dayNumber = window.prompt ("entrer un numero entre 1 et 7")
+        let day 
+
+        switch (Number(dayNumber)) {
+
+            case 1:
+                day = "lundi";
+                break;
+
+            case 2:
+                day = "Mardi";
+                break;
+
+            case 3:
+                day = "Mercredi";
+                break;
+
+            case 4:
+                day = "Jeudi";
+                break;
+
+            case 5:
+                day = "Vendredi";
+                break;
+
+            case 6:
+                day = "Samedi";
+                break;
+
+            case 7:
+                day = "Dimanche";
+break;
+                default :
+                day= "veuillez saisir un chiffre entre 1 et 7"
+        }
+        window.alert(day)
+    </script>
+</body>
